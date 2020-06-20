@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-typescript-starter",
+  "version": "0.1.0",
+  "description": "Starter template for a vanilla TypeScript project",
+  "author": "Matt Bise",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel src/index.html",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.3.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "jest": "^26.0.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
